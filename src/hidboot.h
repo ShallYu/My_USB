@@ -24,6 +24,7 @@ e-mail   :  support@circuitsathome.com
 #include "hid.h"
 #include "Arduino.h"
 #include "confdescparser.h"
+#include "USB_Host.h"
 
 #define KEY_SPACE					0x2c
 #define KEY_ZERO					0x27
