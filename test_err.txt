@@ -1,0 +1,71 @@
+Arduino:1.5.6-r2 (Windows 7), 板："Arduino Nano, ATmega328"
+
+Build options changed, rebuilding all
+
+WARNING: library USBHost claims to run on [sam] architecture(s) and may be incompatible with your current board which runs on [avr] architecture(s).
+
+
+
+In file included from Mouse.ino:5:
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'virtual void HIDBoot<BOOT_PROTOCOL>::EndpointXtract(uint32_t, uint32_t, uint32_t, uint32_t, const USB_ENDPOINT_DESCRIPTOR*)':
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UOTGHS_HSTPIPCFG_PTYPE_INTRPT' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UOTGHS_HSTPIPCFG_PTOKEN_IN' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UOTGHS_HSTPIPCFG_PBK_1_BANK' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: there are no arguments to 'UHD_Pipe_Alloc' that depend on a template parameter, so a declaration of 'UHD_Pipe_Alloc' must be available
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: (if you use '-fpermissive', G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'virtual uint32_t HIDBoot<BOOT_PROTOCOL>::Release()':
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:500: error: there are no arguments to 'UHD_Pipe_Free' that depend on a template parameter, so a declaration of 'UHD_Pipe_Free' must be available
+Mouse.ino: In function 'void setup()':
+Mouse:16: error: 'Mouse' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'uint32_t HIDBoot<BOOT_PROTOCOL>::Release() [with unsigned char BOOT_PROTOCOL = 2u]':
+Mouse.ino:25:   instantiated from here
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:500: error: 'UHD_Pipe_Free' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'void HIDBoot<BOOT_PROTOCOL>::EndpointXtract(uint32_t, uint32_t, uint32_t, uint32_t, const USB_ENDPOINT_DESCRIPTOR*) [with unsigned char BOOT_PROTOCOL = 2u]':
+Mouse.ino:25:   instantiated from here
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UHD_Pipe_Alloc' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'uint32_t HIDBoot<BOOT_PROTOCOL>::Release() [with unsigned char BOOT_PROTOCOL = 1u]':
+Mouse.ino:25:   instantiated from here
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:500: error: 'UHD_Pipe_Free' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'void HIDBoot<BOOT_PROTOCOL>::EndpointXtract(uint32_t, uint32_t, uint32_t, uint32_t, const USB_ENDPOINT_DESCRIPTOR*) [with unsigned char BOOT_PROTOCOL = 1u]':
+Mouse.ino:25:   instantiated from here
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UHD_Pipe_Alloc' was not declared in this scope
+
+  报告将会包含更多的信息
+  "Show verbose output during compilation"
+  在 文件>首选项 中启用
+
+Arduino:1.5.6-r2 (Windows 7), 板："Arduino Nano, ATmega168"
+
+Build options changed, rebuilding all
+
+WARNING: library USBHost claims to run on [sam] architecture(s) and may be incompatible with your current board which runs on [avr] architecture(s).
+
+
+
+In file included from Mouse.ino:5:
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'virtual void HIDBoot<BOOT_PROTOCOL>::EndpointXtract(uint32_t, uint32_t, uint32_t, uint32_t, const USB_ENDPOINT_DESCRIPTOR*)':
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UOTGHS_HSTPIPCFG_PTYPE_INTRPT' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UOTGHS_HSTPIPCFG_PTOKEN_IN' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UOTGHS_HSTPIPCFG_PBK_1_BANK' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: there are no arguments to 'UHD_Pipe_Alloc' that depend on a template parameter, so a declaration of 'UHD_Pipe_Alloc' must be available
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: (if you use '-fpermissive', G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'virtual uint32_t HIDBoot<BOOT_PROTOCOL>::Release()':
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:500: error: there are no arguments to 'UHD_Pipe_Free' that depend on a template parameter, so a declaration of 'UHD_Pipe_Free' must be available
+Mouse.ino: In function 'void setup()':
+Mouse:16: error: 'Mouse' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'uint32_t HIDBoot<BOOT_PROTOCOL>::Release() [with unsigned char BOOT_PROTOCOL = 2u]':
+Mouse.ino:25:   instantiated from here
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:500: error: 'UHD_Pipe_Free' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'void HIDBoot<BOOT_PROTOCOL>::EndpointXtract(uint32_t, uint32_t, uint32_t, uint32_t, const USB_ENDPOINT_DESCRIPTOR*) [with unsigned char BOOT_PROTOCOL = 2u]':
+Mouse.ino:25:   instantiated from here
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UHD_Pipe_Alloc' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'uint32_t HIDBoot<BOOT_PROTOCOL>::Release() [with unsigned char BOOT_PROTOCOL = 1u]':
+Mouse.ino:25:   instantiated from here
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:500: error: 'UHD_Pipe_Free' was not declared in this scope
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h: In member function 'void HIDBoot<BOOT_PROTOCOL>::EndpointXtract(uint32_t, uint32_t, uint32_t, uint32_t, const USB_ENDPOINT_DESCRIPTOR*) [with unsigned char BOOT_PROTOCOL = 1u]':
+Mouse.ino:25:   instantiated from here
+E:\Creating\Arduino\libraries\USBHost\src/hidboot.h:474: error: 'UHD_Pipe_Alloc' was not declared in this scope
+
+  报告将会包含更多的信息
+  "Show verbose output during compilation"
+  在 文件>首选项 中启用
